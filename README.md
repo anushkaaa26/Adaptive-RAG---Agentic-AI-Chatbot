@@ -5,7 +5,7 @@
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.5.4-orange.svg)](https://python.langchain.com/langgraph/)
 [![Qdrant](https://img.shields.io/badge/Qdrant-VectorDB-purple.svg)](https://qdrant.tech/)
 
-## 📋 Overview
+##  Overview
 
 **Adaptive RAG** is an intelligent, end-to-end Retrieval-Augmented Generation (RAG) system powered by agentic AI architecture. It combines dynamic query routing, intelligent document retrieval, and advanced LLM capabilities to provide accurate, context-aware answers to user queries.
 
@@ -13,44 +13,44 @@ The system intelligently adapts its retrieval strategy based on query type, util
 
 ---
 
-## 🎯 Key Features
+##  Key Features
 
-### 🧠 Intelligent Query Routing
+###  Intelligent Query Routing
 - **Adaptive Classification**: Automatically routes queries to the most appropriate processing pipeline
 - **Three Query Types**:
   - **Index**: Queries answerable from uploaded documents
   - **General**: Queries answerable with general knowledge
   - **Search**: Queries requiring real-time web search
 
-### 📚 Advanced RAG Pipeline
+###  Advanced RAG Pipeline
 - **Document Processing**: Intelligent chunking and embedding of documents
 - **Vector Search**: Fast similarity-based retrieval using Qdrant
 - **Relevance Grading**: Automatic evaluation of retrieved documents
 - **Query Rewriting**: Optimizes queries for better retrieval results
 
-### 🤖 Agentic AI Architecture
+###  Agentic AI Architecture
 - **Multi-Agent System**: Specialized agents for different tasks
 - **ReAct Framework**: Reasoning and Acting pattern for intelligent decision-making
 - **Tool Integration**: Seamless integration with retrieval tools and web search
 
-### 💾 State Management
+###  State Management
 - **MongoDB Backend**: Persistent chat history and session management
 - **Session Tracking**: Individual conversation contexts per user
 - **Memory Management**: Full conversation context retention
 
-### 🎨 User Interface
+###  User Interface
 - **Streamlit Web App**: Interactive chat interface with document upload
 - **File Support**: PDF and TXT document uploads
 - **Real-time Feedback**: Live chat with instant responses
 
-### ⚡ API-First Architecture
+###  API-First Architecture
 - **FastAPI Backend**: High-performance REST API
 - **Async Operations**: Non-blocking database and API calls
 - **RESTful Endpoints**: Well-defined API contracts
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### System Components
 
@@ -108,7 +108,7 @@ The system intelligently adapts its retrieval strategy based on query type, util
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ```
 AdaptiveRag/
@@ -164,7 +164,7 @@ AdaptiveRag/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Base URL
 ```
@@ -423,7 +423,7 @@ Query Classification
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - Store API keys in `.env` file (never commit)
 - Use environment variables for sensitive data
@@ -435,7 +435,7 @@ Query Classification
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Local Development
 ```bash
@@ -464,7 +464,7 @@ Create `Dockerfile` and `docker-compose.yml` for containerized deployment.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -484,7 +484,7 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📚 Technology Stack
+##  Technology Stack
 
 | Component | Technology | Version |
 |-----------|-----------|---------|
@@ -503,7 +503,7 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📝 Documentation References
+##  Documentation References
 
 - [CODE_STYLE_GUIDE.md](CODE_STYLE_GUIDE.md) - Comprehensive coding standards
 - [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - Quick patterns and templates
@@ -513,7 +513,7 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## ❓ FAQ
+##  FAQ
 
 **Q: How do I upload multiple documents?**  
 A: Upload one document at a time through the Streamlit interface. Each upload creates a new indexed collection.
@@ -532,7 +532,7 @@ A: Yes, remove Tavily dependency. Queries will use index or general LLM only.
 
 ---
 
-## 💬 Support & Contact
+##  Support & Contact
 
 For issues, questions, or suggestions:
 - Open an [Issue](https://github.com/anushkaaa26/Adaptive-Rag/issues)
@@ -541,7 +541,7 @@ For issues, questions, or suggestions:
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built with LangChain and LangGraph
 - Vector search powered by Qdrant
@@ -552,7 +552,7 @@ For issues, questions, or suggestions:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -561,7 +561,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📈 Project Status
+##  Project Status
 
 - ✅ Core RAG pipeline implemented
 - ✅ Document upload and indexing
@@ -573,7 +573,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Enhanced context management
 - [ ] Multi-language support
